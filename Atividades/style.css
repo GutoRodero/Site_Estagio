@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(22,22,22);
+}
+.Logo{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15,15,15);
+    box-shadow: 0 0 1rem black;
+}
+ul{
+    display: flex;
+    margin: 23px;
+}
+a{
+    color: blueviolet;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: blueviolet;
+}
+p{
+    color: blueviolet;
+}
+input[type=text]{
+    width:400px
+}
+input[type=submit]{
+    width: 80px;
+}
+button{
+    width: 80px;
+}
